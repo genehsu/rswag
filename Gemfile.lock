@@ -1,11 +1,11 @@
 PATH
-  remote: ./rswag-api
+  remote: rswag-api
   specs:
     rswag-api (1.2.0)
       rails (>= 3.1, < 5.1)
 
 PATH
-  remote: ./rswag-specs
+  remote: rswag-specs
   specs:
     rswag-specs (1.2.0)
       json-schema (~> 2.2)
@@ -13,7 +13,7 @@ PATH
       rspec-rails (>= 2.14, < 4)
 
 PATH
-  remote: ./rswag-ui
+  remote: rswag-ui
   specs:
     rswag-ui (1.2.0)
       rails (>= 3.1, < 5.1)
@@ -78,12 +78,14 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.5.1)
     multi_json (1.12.1)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.11.5)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     polyglot (0.3.5)
     power_assert (0.3.1)
+    racc (1.5.2)
     rack (1.4.7)
     rack-cache (1.6.1)
       rack (>= 0.4)
